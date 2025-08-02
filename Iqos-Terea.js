@@ -133,8 +133,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,152,152);
 p.nominalBounds = new cjs.Rectangle(0,0,172,181);
 
 
-(lib._return = function() {
-	this.initialize(img._return);
+(lib.return = function() {
+	this.initialize(img.return);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,142,88);
 
@@ -509,7 +509,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._return();
+	this.instance = new lib.return();
 	this.instance.setTransform(-35.5,-22,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1051,7 +1051,7 @@ lib.properties = {
 		{src:"images/pop_oasis.png", id:"pop_oasis"},
 		{src:"images/price.png", id:"price"},
 		{src:"images/Purple.png", id:"Purple"},
-		{src:"images/_return.png", id:"_return"},
+		{src:"images/return.png", id:"return"},
 		{src:"images/SunPearl.png", id:"SunPearl"},
 		{src:"images/Sun_Txt.png", id:"Sun_Txt"},
 		{src:"images/touch.png", id:"touch"},
